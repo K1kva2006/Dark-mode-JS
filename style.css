@@ -1,0 +1,22 @@
+.button {
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 1s;
+    outline: none;
+}
+.activeButton {
+    background-color: rgb(231, 231, 231);
+    color: black;
+    border: 2px solid rgb(231, 231, 231);
+}
+.text {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    user-select: none;
+}
+.text-active {
+    color: white;
+}
